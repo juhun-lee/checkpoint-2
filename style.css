@@ -1,6 +1,26 @@
+.circle {
+    width: 10px;
+    height: 5px;
+    background-color: rgb(255, 80, 0);
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+    border-radius: 0%;
+    margin-top: 5px;
+    padding-left: 18px;
+}
+  /* Standard syntax */
+  @keyframes example {
+    0%   {background-color:rgb(255, 80, 0); left:0%; top:0px;}
+    25%  {background-color:yellow; left:78%; top:0px;}
+    50%  {background-color:blue; left:0%; top:0px;}
+    75%  {background-color:green; left:78%; top:0px;}
+    100% {background-color:rgb(255, 80, 0); left:0%; top:0px;}
+  }
+
 @media (min-width: 812px) {
 .header-wrapper {
-    background-color: lightblue;
+    background-color: rgb(209, 209, 209);
     height: 100px;
     align-content: center;
 }
@@ -28,8 +48,17 @@
     padding: 150px;
 }
 
-.h1 {
+.h2 {
+    /* background-color: rgb(209, 209, 209); */
+    /* width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%; */
     text-align: center;
+    color: white;
+    padding: 50px;
 }
 
 .article {
@@ -37,13 +66,14 @@
     background-color: black;
     text-align: center;
     color: white;
-    padding: 50px;
+    padding: 10px 20px;
+
 }
 }
 
 @media (min-width: 0px) {
     .header-wrapper {
-        background-color: lightblue;
+        background-color: rgb(209, 209, 209);
         height: 100px;
         align-content: center;
     }
@@ -71,8 +101,9 @@
         padding: 150px;
     }
     
-    .h1 {
+    .h2 {
         text-align: center;
+        padding: 15px;
     }
     
     .article {

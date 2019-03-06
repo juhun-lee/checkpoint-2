@@ -1,20 +1,56 @@
 @media (min-width: 812px) {
 .body {
-    float: center;
+    /* width: 100%; */
 }
-.video {
-    float: center;
+
+.videoWrapper {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.back {
+ float: left;
 }
 
 .article {
     font-family: avenir;
-    font-size: 25px;
-    background-color: lightcoral;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(209, 209, 209);
     display: flexbox;
     float: right;
+    padding: auto;
+    padding-right: 1.5%;
 }
 }
 
 @media (min-width: 0px) {
+.body {
+}
 
+.videoWrapper {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.back {
+    float: left;
+   }
+
+.article {
+    font-family: avenir;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(209, 209, 209);
+    display: flexbox;
+    float: right;
+    padding: 5px;
+}
 }

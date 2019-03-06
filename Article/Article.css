@@ -6,22 +6,26 @@ h1 {
     background-color:rgb(0, 0, 0);
     margin: auto;
     width: 10% auto;
-    /* border: 3px solid rgb(182, 182, 182); */
     padding: 10px;
     color: whitesmoke;
 }
 
-body {
+.about {
+    float: left;
+}
 
+.home {
+    float: right;
 }
 
 main {
-    display: flexbox;
-    width: auto;
-    height: auto;
+    position: absolute;
     margin: auto;
-    padding: auto;
-    /* background: lightgrey; */
+}
+
+h3 {
+    padding: 10px;
+    margin: auto;
 }
 
 article {
@@ -31,7 +35,11 @@ article {
     text-align: center;
     color: rgb(209, 209, 209);
     padding: 50px;
+}
 
+p {
+    padding: 10px;
+    margin: auto;
 }
 
 article > h3 {
@@ -59,26 +67,40 @@ h1 {
     color: whitesmoke;
 }
 
-body {
+.about {
+    float: left;
+}
 
+.home {
+    float: right;
 }
 
 main {
-    /* display: flexbox; */
     width: auto;
     height: auto;
     margin: auto;
-    padding: auto;
-    /* background: lightgrey; */
+    padding: 50px;
+}
+
+h3 {
+    padding: 10px;
+    padding-left: 10px;
+    margin: auto;
 }
 
 article {
     font-family: avenir;
     margin: 1% auto;
     border: 2px solid grey;
-    width: 60%;
+    width: 80%;
     background: white;
     color: rgb(209, 209, 209);
+    padding: 30px;
+}
+
+p {
+    padding: 10px;
+    margin: auto;
 }
 
 article > h3 {
