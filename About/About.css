@@ -1,0 +1,20 @@
+@media (min-width: 812px) {
+.body {
+    float: center;
+}
+.video {
+    float: center;
+}
+
+.article {
+    font-family: avenir;
+    font-size: 25px;
+    background-color: lightcoral;
+    display: flexbox;
+    float: right;
+}
+}
+
+@media (min-width: 0px) {
+
+}

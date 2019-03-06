@@ -1,0 +1,95 @@
+@media (min-width: 812px) {
+
+h1 {
+    font-family: avenir;
+    text-align: center;
+    background-color:rgb(0, 0, 0);
+    margin: auto;
+    width: 10% auto;
+    /* border: 3px solid rgb(182, 182, 182); */
+    padding: 10px;
+    color: whitesmoke;
+}
+
+body {
+
+}
+
+main {
+    display: flexbox;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    /* background: lightgrey; */
+}
+
+article {
+    font-family: avenir;
+    display: flex;
+    background-color: black;
+    text-align: center;
+    color: rgb(209, 209, 209);
+    padding: 50px;
+
+}
+
+article > h3 {
+    font-size: 2em;
+}
+
+article:hover {
+    background: grey;
+}
+
+article:hover > h3 {
+    color: black;
+}
+}
+
+@media (min-width: 0px) {
+h1 {
+    font-family: avenir;
+    text-align: center;
+    background-color:rgb(0, 0, 0);
+    margin: auto;
+    width: 10% auto;
+    /* border: 3px solid rgb(182, 182, 182); */
+    padding: 10px;
+    color: whitesmoke;
+}
+
+body {
+
+}
+
+main {
+    /* display: flexbox; */
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    /* background: lightgrey; */
+}
+
+article {
+    font-family: avenir;
+    margin: 1% auto;
+    border: 2px solid grey;
+    width: 60%;
+    background: white;
+    color: rgb(209, 209, 209);
+}
+
+article > h3 {
+    font-size: 2em;
+}
+
+article:hover {
+    background: grey;
+}
+
+article:hover > h3 {
+    color: black;
+}
+}
